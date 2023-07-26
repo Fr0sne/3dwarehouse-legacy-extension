@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Warehouse Legacy Download",
-  "version": "1.0",
+  "version": "1.2",
   "description": "This extension allows user to download old version of assets from 3D Warehouse",
   "permissions": [
-    "activeTab"
+    "https://3dwarehouse.sketchup.com/*"
   ],
   "content_scripts": [
     {

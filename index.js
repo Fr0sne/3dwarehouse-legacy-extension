@@ -6,8 +6,7 @@ function getElementByXPath(xpath) {
 }
 
 
-console.log('====== 3D Warehouse Legacy Download by Gabriel Davi ====== ')
-console.log('Extensão carregada com sucesso.')
+
 
 function renderDownloadButton(id, list) {
 	const downloadPattern = (version = 's20') => `https://3dwarehouse.sketchup.com/warehouse/v1.0/entities/${id}/binaries/${version}?download=true`
@@ -54,6 +53,7 @@ async function productPageRoutine() {
 		renderDownloadButton(id, list)
 	}
 }
-
+console.log('====== 3D Warehouse Legacy Download by Gabriel Davi ====== ')
+console.log('Extensão carregada com sucesso.')
 productPageRoutine()
 listPageRoutine()
